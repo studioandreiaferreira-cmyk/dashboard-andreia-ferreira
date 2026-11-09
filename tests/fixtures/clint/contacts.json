@@ -1,0 +1,41 @@
+{
+ "status": 200,
+ "data": [
+  {
+   "id": "c1",
+   "name": "Maria Teste",
+   "email": null,
+   "ddi": "55",
+   "phone": "11999990001",
+   "fields": {
+    "role": "Esteticista"
+   },
+   "updated_at": "2026-10-05T00:00:00Z"
+  },
+  {
+   "id": "c2",
+   "name": "Joana Exemplo",
+   "email": null,
+   "ddi": "55",
+   "phone": "11999990002",
+   "fields": {},
+   "updated_at": "2026-10-05T00:00:00Z"
+  },
+  {
+   "id": "c3",
+   "name": "Ana Fechada",
+   "email": null,
+   "ddi": "55",
+   "phone": "11999990003",
+   "fields": {
+    "role": "Médica"
+   },
+   "updated_at": "2026-10-05T00:00:00Z"
+  }
+ ],
+ "totalCount": 3,
+ "page": 1,
+ "totalPages": 1,
+ "hasNext": false,
+ "hasPrevious": false
+}

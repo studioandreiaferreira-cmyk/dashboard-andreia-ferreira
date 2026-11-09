@@ -1,0 +1,183 @@
+{
+ "status": 200,
+ "data": [
+  {
+   "id": "d1",
+   "origin_id": "o1",
+   "user": {
+    "id": "u1",
+    "email": "carina@example.com",
+    "full_name": "Carina Pimentel"
+   },
+   "contact": {
+    "id": "c1",
+    "name": "Maria Teste",
+    "email": null,
+    "phone": "11999990001",
+    "ddi": "55",
+    "instagram": null
+   },
+   "created_at": "2026-10-05T02:30:00Z",
+   "updated_at": "2026-10-06T12:00:00Z",
+   "updated_stage_at": "2026-10-01T12:00:00Z",
+   "status": "OPEN",
+   "won_at": null,
+   "won_by": null,
+   "lost_status_id": null,
+   "lost_at": null,
+   "lost_by": null,
+   "fields": {
+    "app": "FACEBOOK_LEAD_ADS",
+    "ad_id": "ad1",
+    "ad_name": "AD1 - [VIDEO]",
+    "form_id": "f1",
+    "form_name": "AREOLA FLOWER | PT",
+    "campaign_id": "camp1",
+    "campaign_name": "🇧🇷 [LEAD][FORM] - SAO PAULO",
+    "faturamento_mensal": "até_3.000__",
+    "utm_source": "facebook"
+   },
+   "contact_schedules": [],
+   "stage": "X",
+   "value": 0,
+   "currency": "BRL",
+   "currency_symbol": "R$",
+   "stage_id": "s2"
+  },
+  {
+   "id": "d2",
+   "origin_id": "o2",
+   "user": null,
+   "contact": {
+    "id": "c2",
+    "name": "Joana Exemplo",
+    "email": null,
+    "phone": "11999990002",
+    "ddi": "55",
+    "instagram": null
+   },
+   "created_at": "2026-10-05T15:00:00Z",
+   "updated_at": "2026-10-05T15:00:00Z",
+   "updated_stage_at": "2026-10-05T15:00:00Z",
+   "status": "OPEN",
+   "won_at": null,
+   "won_by": null,
+   "lost_status_id": null,
+   "lost_at": null,
+   "lost_by": null,
+   "fields": {},
+   "contact_schedules": [],
+   "stage": "X",
+   "value": 0,
+   "currency": "BRL",
+   "currency_symbol": "R$",
+   "stage_id": "s4"
+  },
+  {
+   "id": "d5",
+   "origin_id": "o2",
+   "user": {
+    "id": "u2",
+    "email": "charlynne@example.com",
+    "full_name": "Charlynne Macedo"
+   },
+   "contact": {
+    "id": "c2",
+    "name": "Joana Exemplo",
+    "email": null,
+    "phone": "11999990002",
+    "ddi": "55",
+    "instagram": null
+   },
+   "created_at": "2026-10-06T15:00:00Z",
+   "updated_at": "2026-10-07T15:00:00Z",
+   "updated_stage_at": "2026-10-06T15:00:00Z",
+   "status": "OPEN",
+   "won_at": null,
+   "won_by": null,
+   "lost_status_id": null,
+   "lost_at": null,
+   "lost_by": null,
+   "fields": {},
+   "contact_schedules": [],
+   "stage": "X",
+   "value": 0,
+   "currency": "BRL",
+   "currency_symbol": "R$",
+   "stage_id": "s4"
+  },
+  {
+   "id": "d3",
+   "origin_id": "o1",
+   "user": {
+    "id": "u2",
+    "email": "charlynne@example.com",
+    "full_name": "Charlynne Macedo"
+   },
+   "contact": {
+    "id": "c3",
+    "name": "Ana Fechada",
+    "email": null,
+    "phone": "11999990003",
+    "ddi": "55",
+    "instagram": null
+   },
+   "created_at": "2026-09-20T15:00:00Z",
+   "updated_at": "2026-10-02T15:00:00Z",
+   "updated_stage_at": "2026-10-02T15:00:00Z",
+   "status": "WON",
+   "won_at": "2026-10-02T15:00:00Z",
+   "won_by": null,
+   "lost_status_id": null,
+   "lost_at": null,
+   "lost_by": null,
+   "fields": {
+    "campaign_name": "🇧🇷 [LEAD][FORM] - SAO PAULO"
+   },
+   "contact_schedules": [],
+   "stage": "X",
+   "value": 0,
+   "currency": "BRL",
+   "currency_symbol": "R$",
+   "stage_id": "s3"
+  },
+  {
+   "id": "d4",
+   "origin_id": "o1",
+   "user": {
+    "id": "u1",
+    "email": "carina@example.com",
+    "full_name": "Carina Pimentel"
+   },
+   "contact": {
+    "id": "c3",
+    "name": "Ana Fechada",
+    "email": null,
+    "phone": "11999990003",
+    "ddi": "55",
+    "instagram": null
+   },
+   "created_at": "2026-09-21T15:00:00Z",
+   "updated_at": "2026-10-03T15:00:00Z",
+   "updated_stage_at": "2026-09-21T15:00:00Z",
+   "status": "LOST",
+   "won_at": null,
+   "won_by": null,
+   "lost_status_id": "ls1",
+   "lost_at": "2026-10-03T15:00:00Z",
+   "lost_by": null,
+   "fields": {},
+   "contact_schedules": [],
+   "stage": "X",
+   "value": 0,
+   "currency": "BRL",
+   "currency_symbol": "R$",
+   "stage_id": "s1"
+  }
+ ],
+ "totalCount": 5,
+ "page": 1,
+ "totalPages": 1,
+ "hasNext": false,
+ "hasPrevious": false
+}

@@ -1,0 +1,18 @@
+{
+ "status": 200,
+ "data": [
+  {
+   "id": "ls1",
+   "name": "Sem dinheiro"
+  },
+  {
+   "id": "ls2",
+   "name": "Cliente não respondeu mais"
+  }
+ ],
+ "totalCount": 2,
+ "page": 1,
+ "totalPages": 1,
+ "hasNext": false,
+ "hasPrevious": false
+}

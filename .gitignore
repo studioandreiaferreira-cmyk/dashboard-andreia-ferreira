@@ -1,0 +1,19 @@
+.dev.vars
+.env
+.env*
+env.
+node_modules/
+web/dist/
+.wrangler/
+dist/
+*.log
+.DS_Store
+coverage/
+.build/
+
+# fora do repositório do dash
+proposta/
+video/
+tab-*.png
+.claude/
+supabase/.temp/

@@ -1,0 +1,36 @@
+{
+  "name": "af-crm-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "functions": "node scripts/build-functions.mjs",
+    "deploy": "node scripts/deploy-page.mjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "preact": "^11.0.1"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.4.0",
+    "@cloudflare/workers-types": "^5.20261011.1",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/sql.js": "^1.4.11",
+    "concurrently": "^10.0.6",
+    "postgres": "^3.4.9",
+    "sql.js": "^1.15.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vitest": "^4.1.11",
+    "wrangler": "^4.149.0"
+  },
+  "allowScripts": {
+    "workerd@1.20260815.1": true,
+    "workerd@1.20261006.1": true,
+    "esbuild@0.28.1": true,
+    "esbuild@0.28.2": true
+  }
+}

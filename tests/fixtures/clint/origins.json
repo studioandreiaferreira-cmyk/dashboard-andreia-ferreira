@@ -1,0 +1,56 @@
+{
+ "status": 200,
+ "data": [
+  {
+   "id": "o1",
+   "name": "Aréola Flowers",
+   "group": {
+    "id": "g1",
+    "name": "Comercial Brasil"
+   },
+   "archived_at": null,
+   "stages": [
+    {
+     "id": "s1",
+     "label": "PRIMEIRO CONTATO",
+     "order": 1,
+     "type": "BASE"
+    },
+    {
+     "id": "s2",
+     "label": "AGENDAMENTO",
+     "order": 2,
+     "type": "CUSTOM"
+    },
+    {
+     "id": "s3",
+     "label": "CONTRATO",
+     "order": 3,
+     "type": "CLOSING"
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "name": "Protocolo Revita",
+   "group": {
+    "id": "g2",
+    "name": "STUDIO AF"
+   },
+   "archived_at": "2026-09-01T00:00:00Z",
+   "stages": [
+    {
+     "id": "s4",
+     "label": "PRIMEIRO CONTATO",
+     "order": 1,
+     "type": "BASE"
+    }
+   ]
+  }
+ ],
+ "totalCount": 2,
+ "page": 1,
+ "totalPages": 1,
+ "hasNext": false,
+ "hasPrevious": false
+}

@@ -1,0 +1,17 @@
+# Studio Andreia Ferreira — dashboard page (static files only, no Worker script: free and unlimited
+# on the Workers Free plan). The data comes from Supabase (specs/002-static-supabase/plan.md).
+# The page lives under a secret path: scripts/deploy-page.mjs builds it into web/dist/<DASH_SLUG>/.
+name = "af-crm-dashboard"
+account_id = "02222a8c0b30d08dd603f8fadd428333"
+compatibility_date = "2026-09-01"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "web/dist"
+html_handling = "auto-trailing-slash"
+not_found_handling = "none"
+
+# No schedules any more: the sync runs on Supabase (pg_cron).
+[triggers]
+crons = []

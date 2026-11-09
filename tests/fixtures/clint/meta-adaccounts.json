@@ -1,0 +1,14 @@
+{
+ "data": [
+  {
+   "id": "act_1",
+   "name": "Conta teste",
+   "account_status": 1
+  },
+  {
+   "id": "act_2",
+   "name": "Conta desativada",
+   "account_status": 2
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "data": [
+  {
+   "date_start": "2026-10-06",
+   "date_stop": "2026-10-06",
+   "account_id": "1",
+   "campaign_id": "camp9",
+   "campaign_name": "Tráfego perfil",
+   "adset_id": "as9",
+   "adset_name": "Conjunto 9",
+   "ad_id": "ad9",
+   "ad_name": "AD9",
+   "spend": "30",
+   "impressions": "900",
+   "clicks": "10"
+  }
+ ]
+}

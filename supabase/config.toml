@@ -1,0 +1,9 @@
+# Supabase project of the client (Studio Andreia Ferreira). Only what the CLI needs to deploy functions.
+project_id = "itikdlckqicoobxnkldq"
+
+# Both functions check their own key header (x-cron-key / x-dash-key) instead of a Supabase JWT.
+[functions.sync]
+verify_jwt = false
+
+[functions.chat]
+verify_jwt = false

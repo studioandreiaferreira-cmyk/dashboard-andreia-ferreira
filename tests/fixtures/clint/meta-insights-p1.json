@@ -1,0 +1,55 @@
+{
+ "data": [
+  {
+   "date_start": "2026-10-05",
+   "date_stop": "2026-10-05",
+   "account_id": "1",
+   "campaign_id": "camp1",
+   "campaign_name": "🇧🇷 [LEAD][FORM] - SAO PAULO",
+   "adset_id": "as1",
+   "adset_name": "Conjunto 1",
+   "ad_id": "ad1",
+   "ad_name": "AD1 - [VIDEO]",
+   "spend": "100.50",
+   "impressions": "5000",
+   "clicks": "120",
+   "actions": [
+    {
+     "action_type": "lead",
+     "value": "3"
+    },
+    {
+     "action_type": "onsite_conversion.lead_grouped",
+     "value": "3"
+    },
+    {
+     "action_type": "link_click",
+     "value": "90"
+    }
+   ]
+  },
+  {
+   "date_start": "2026-10-06",
+   "date_stop": "2026-10-06",
+   "account_id": "1",
+   "campaign_id": "camp1",
+   "campaign_name": "🇧🇷 [LEAD][FORM] - SAO PAULO",
+   "adset_id": "as1",
+   "adset_name": "Conjunto 1",
+   "ad_id": "ad1",
+   "ad_name": "AD1 - [VIDEO]",
+   "spend": "49.50",
+   "impressions": "2000",
+   "clicks": "40",
+   "actions": [
+    {
+     "action_type": "lead",
+     "value": "1"
+    }
+   ]
+  }
+ ],
+ "paging": {
+  "next": "https://graph.facebook.com/v24.0/act_1/insights?page=2"
+ }
+}
